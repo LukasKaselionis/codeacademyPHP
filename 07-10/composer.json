@@ -1,0 +1,15 @@
+{
+    "name": "lukas/helloworld",
+    "description": "Test composer usage",
+    "type": "project",
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Products\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
